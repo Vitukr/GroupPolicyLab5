@@ -38,7 +38,7 @@ namespace GroupPolicyLab5
                 await ReadFileAsync();
 
                 // Calculate
-                await CalcNumEntry();
+                await CalcNumEntryAsync();
 
                 // Save to new file
                 await WriteFileAsync();
@@ -97,7 +97,7 @@ namespace GroupPolicyLab5
             }
         }
 
-        private async Task CalcNumEntry()
+        private async Task CalcNumEntryAsync()
         {
             try
             {
