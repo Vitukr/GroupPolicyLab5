@@ -24,6 +24,7 @@ namespace GroupPolicyLab5
     {
         private String _text = "";
         private Dictionary<char, int> _dictionary = new Dictionary<char, int>();
+
         public MainWindow()
         {
             InitializeComponent();
