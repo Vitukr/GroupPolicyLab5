@@ -5,12 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GroupPolicyLab5"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525" WindowStartupLocation="CenterScreen">
+        Title="Group policy Lab 5" Height="350" Width="525" WindowStartupLocation="CenterScreen">
     <Grid>
         <Button x:Name="buttonFile" Content="Get file" Margin="0,78,83,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="75" Click="buttonFile_Click"/>
-        <GroupBox x:Name="groupBoxFile" Header="File name" HorizontalAlignment="Left" Height="50" Margin="69,57,0,0" VerticalAlignment="Top" Width="187">
-            <TextBox x:Name="textBoxFile"></TextBox>
-        </GroupBox>
+        <ProgressBar x:Name="progressBar" HorizontalAlignment="Left" Height="10" Margin="10,174,0,0" VerticalAlignment="Top" Width="497"/>
 
     </Grid>
 </Window>
