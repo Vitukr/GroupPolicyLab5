@@ -36,6 +36,7 @@ namespace GroupPolicyLab5
                 // Read file
                 await ReadFileAsync();
 
+                // Calculate
                 await CalcNumEntry();
 
                 // Save to new file
